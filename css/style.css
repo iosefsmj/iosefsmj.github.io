@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  background-image: url('../img/blur.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.home {
+  background-image: url('../img/evolution.jpg');
+  /* height: 2000px; */
+  background-attachment: fixed;
+  /* background-position: 0 -240px; */
+  /* background-color: rgb(213,213,213); */
+}
+
+.home header {
+  margin: auto;
+  width: 80%;
+}
+
+.logo{
+  width: 80%;
+  margin: auto;
+}
+
+.logo a {
+  display: block;
+  width: 100%;
+}
+
+.logo a img {
+  display: block;
+  width: 100%;
+  padding-top: 30px;
+}
+
+span {
+  padding-right: 8px;
+}
+
+p {
+   text-indent: 35px;
+   text-align: justify;
+   /* font-family: didot, serif; */
+   font-size: 20px;
+   line-height: 1.4em;
+}
+
+h1 {
+  background-color: rgba(255,255,255,0.2);
+  text-align: center;
+  height: 150px;
+  line-height: 150px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 a {
+  position: relative;
+}
+h1 span {
+  display: inline-block;
+  margin-left: 100px;
+  color: white;
+  font-size: 40px;
+  font-weight: normal;
+}
+h1 a img {
+  position: absolute;
+}
