@@ -14,6 +14,7 @@ body {
   background-image: url('../img/evolution.jpg');
   /* height: 2000px; */
   background-attachment: fixed;
+  background-size: cover;
   /* background-position: 0 -240px; */
   /* background-color: rgb(213,213,213); */
 }
@@ -73,3 +74,5 @@ h1 span {
 h1 a img {
   position: absolute;
 }
+
+/* @media (-webkit-min-device-pixel-ratio: 3.5), */
